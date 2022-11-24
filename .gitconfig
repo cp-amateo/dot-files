@@ -1,0 +1,20 @@
+[core]
+	excludesfile = /Users/amateo/.gitignore_global
+	autocrlf = input
+[user]
+	name = Alejandro Mateo
+	email = alejandro.mateo@clearpay.com
+[commit]
+	template = /Users/amateo/.stCommitMsg
+[alias]
+	cm = commit -m
+	ad = add .
+	st = status
+	co = checkout
+	ps = push
+	psf = push --force
+	pl = pull
+[credential]
+	helper = cache
+[url "git@github.com:"]
+	insteadOf = https://github.com/
