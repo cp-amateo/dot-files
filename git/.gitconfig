@@ -1,11 +1,11 @@
-[core]
-	excludesfile = /Users/amateo/.gitignore_global
-	autocrlf = input
 [user]
 	name = Alejandro Mateo
 	email = alejandro.mateo@clearpay.com
-[commit]
-	template = /Users/amateo/.stCommitMsg
+
+[core]
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
+	
 [alias]
 	cm = commit -m
 	ad = add .
@@ -14,7 +14,14 @@
 	ps = push
 	psf = push --force
 	pl = pull
+
 [credential]
 	helper = cache
+
 [url "git@github.com:"]
 	insteadOf = https://github.com/
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto

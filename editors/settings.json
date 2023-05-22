@@ -1,0 +1,15 @@
+{
+    "liveshare.anonymousGuestApproval": "reject",
+    "liveshare.guestApprovalRequired": true,
+    "liveshare.shareExternalFiles": false,
+    "window.zoomLevel": 1,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editorAssociations": {
+      "*.json": "default"
+    },
+    "latex-workshop.latex.outDir": "build",
+    "latex-workshop.latexindent.path": "/opt/homebrew/bin/latexindent",
+    "latex-workshop.latex.clean.command": "/opt/homebrew/bin/latexmk",
+    "editor.minimap.enabled": false
+  }
+  
